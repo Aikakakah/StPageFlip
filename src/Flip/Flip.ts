@@ -294,7 +294,7 @@ export class Flip {
 
                 this.calc.calc({ x: pageWidth - 1, y: 1 });
 
-                const fixedCornerSize = 50;
+                const fixedCornerSize = 25;
                 const yStart = this.calc.getCorner() === FlipCorner.BOTTOM ? rect.height - 1 : 1;
 
                 const yDest =
